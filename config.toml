@@ -1,0 +1,40 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-ca'
+title = 'Bits n Bytes | Apption'
+theme = 'nightfall'
+
+
+[menu]
+  [[menu.header]]
+    name = "bits"
+    weight = 0
+    url = "/bits"
+  [[menu.header]]
+    name = "bytes"
+    weight = 0
+    url = "/bytes"
+
+[params]
+author = "Bits n Bytes"
+user = "bits-n-bytes"
+hostname = "apption.com"
+
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/apption-oscode"
+
+[[params.social]]
+key = 1
+name = "apption"
+url = "https://www.apption.com"
+
+[[params.social]]
+key = 2
+name = "linkedin"
+url = "https://www.apption.com"
+
+[[params.social]]
+key = 3
+name = "email"
+url = "mailto:email@example.com"
